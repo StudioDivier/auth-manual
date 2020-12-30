@@ -7,6 +7,10 @@ redirect = 'http://127.0.0.1:5000/vk-gateway'
 
 
 def send_request():
+    """
+    Функция
+    :return:
+    """
 
     link = f'https://oauth.vk.com/authorize?client_id={client_id}&' \
            f'display=page&' \
